@@ -4,7 +4,12 @@
 
 a = int(input())
 b = int(input())
-
 a, b = b, a
-
 print(a, b)
+
+# or
+
+class Solution:
+    def swap(self, a, b):
+        a, b = b, a
+        print(a, b)
