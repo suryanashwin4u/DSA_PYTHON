@@ -1,3 +1,2 @@
-x = [1,2,3]
-x.append(x)
-print(x)
+import keyword
+print(keyword.kwlist)
