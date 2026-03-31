@@ -5,10 +5,14 @@
 class Solution:
     def minProduct(self, arr, k):
         MOD = 10**9 + 7
-        arr.sort()   # Step 1: sort the array
+        
+        n = len(arr)
+        k = min(k, n)   # handle edge case
+        
+        arr.sort()
+        
         product = 1
-
-        for i in range(k):   # Step 2: multiply first k elements
+        for i in range(k):
             product = (product * arr[i]) % MOD
-            
+        
         return product
