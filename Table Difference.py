@@ -2,10 +2,8 @@
 # Find the differences between mathematical tables of n1 and n2 and print in a single line.
 # Note: Don't add a new line in the end.
 
-n1 = int(input())
-n2 = int(input())
-
-diff = n1 - n2
-
-for i in range(1, 11):
-    print(diff * i, end=" ")
+def difference(n1, n2):
+    diff = n1 - n2
+    
+    for i in range(1, 11):
+        print(diff * i, end=" ")
