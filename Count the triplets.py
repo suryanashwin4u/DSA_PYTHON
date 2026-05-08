@@ -1,8 +1,9 @@
 # Given an array arr, count the number of distinct triplets (a, b, c) such that:
-
 # a + b = c
-
 # Each triplet is counted only once, regardless of the order of a and b.
+# Expected Complexities
+# Time Complexity: O(n^2)
+# Auxiliary Space: O(1)
 
 class Solution:
     def countTriplet(self, arr):
