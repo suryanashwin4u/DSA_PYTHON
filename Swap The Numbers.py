@@ -1,6 +1,8 @@
 # Given two numbers a and b, 
 # you need to swap their values so a holds the value of b and b holds the value of a. 
 # Just write the code to swap values of a and b at the specified place.
+# Time Complexity: O(1)
+# Auxiliary Space: O(1)
 
 a = int(input())
 b = int(input())

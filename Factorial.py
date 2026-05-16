@@ -6,6 +6,9 @@
 # = 4 * 3 * 2 * 1
 # = 24
 
+# Time Complexity: O(n)
+# Auxiliary Space: O(1)
+
 class Solution:
     def factorial(self, n: int) -> int:
         if n == 0:
